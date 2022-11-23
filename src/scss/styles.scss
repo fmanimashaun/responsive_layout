@@ -6,11 +6,13 @@ $heading-fs: 3rem;
 $sub__heading-fs: 1.5rem;
 $paragraph-fs: 1.125rem;
 $layout__length: 980px;
+$gap : 1.5rem;
 
 .container {
-  width: 100%;
+  width: 95%;
   max-width: $layout__length;
   margin: 0 auto;
+  color: $gray;
 }
 
 .main {
@@ -18,7 +20,7 @@ $layout__length: 980px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: $gap;
 }
 
 .main__page-title {
@@ -34,5 +36,38 @@ $layout__length: 980px;
   img {
     width: 100%;
     height: auto;
+  }
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: $gap;
+}
+
+.col__heading {
+  font-size: $sub__heading-fs;
+  line-height: 2em;
+}
+
+.col {
+
+  &.col-1 {
+    flex-basis: calc(25% - (0.5*$gap));
+  }
+
+  &.col-2 {
+    flex-basis: calc(50% - $gap);
+  }
+
+  &.col-3 {
+    flex-basis: calc(75% - (0.5*$gap));
+  }
+
+  &.col__bg {
+    padding: 1em;
+    background-color: $dark-brown;
+    color: $white;
   }
 }
