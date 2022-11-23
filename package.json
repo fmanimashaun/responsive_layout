@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "responsive_layout",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -9,10 +9,17 @@
     "build": "webpack",
     "deploy": "git subtree push --prefix dist origin gh-page"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmanimashaun/responsive_layout.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "",
+  "bugs": {
+    "url": "https://github.com/fmanimashaun/responsive_layout/issues"
+  },
+  "homepage": "https://github.com/fmanimashaun/responsive_layout#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
@@ -23,6 +30,9 @@
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.5.0",
     "luxon": "^3.1.0",
+    "mini-css-extract-plugin": "^2.7.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
     "style-loader": "^3.3.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
