@@ -1,10 +1,9 @@
 ![](https://img.shields.io/badge/fmanimashaun-green)
 
-# To Do list
+# Responsive Layout
 
 ## Overview
 
-In this project, I built a simple HTML list of To Do tasks with focus on it structure using Javascript to load the html elements dynamically. In  addition, I implemented the CRUD (create, read, update, delete) methods as a way to add, remove or update the task list. This simple web page was built using webpack and served by a webpack dev server.
 
 ## Project Objectives (Work-in-progress)
 
