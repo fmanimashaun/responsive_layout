@@ -10,7 +10,7 @@
 
 ## DEMO LINK
 
-> [Live Demo Link](#)
+> [Live Demo Link]( https://fmanimashaun.github.io/responsive_layout/)
 
 ## Screenshots
 
