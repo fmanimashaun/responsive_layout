@@ -121,4 +121,18 @@ noscript {
   outline: none !important;
 }
 
-body{background-color:red}
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1rem
+}
+
+.main__page-title {
+  font-size: 3rem;
+  text-align: center
+}
+
+.main__page-title span {
+  color: #b7832f
+}

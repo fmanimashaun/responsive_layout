@@ -1,5 +1,38 @@
-$bg-color: red;
+$dark-brown: #312614;
+$light-brown: #b7832f;
+$gray: #707070;
+$white: #fff;
+$heading-fs: 3rem;
+$sub__heading-fs: 1.5rem;
+$paragraph-fs: 1.125rem;
+$layout__length: 980px;
 
-body {
-  background-color: $bg-color;
+.container {
+  width: 100%;
+  max-width: $layout__length;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.main__page-title {
+  font-size: $heading-fs;
+  text-align: center;
+
+  span {
+    color: $light-brown;
+  }
+}
+
+.hero__section {
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
