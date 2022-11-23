@@ -122,10 +122,18 @@ noscript {
 }
 
 .container {
-  width: 100%;
+  width: 95%;
   max-width: 980px;
   margin: 0 auto;
-  padding: 0 1rem
+  color: #707070
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem
 }
 
 .main__page-title {
@@ -135,4 +143,39 @@ noscript {
 
 .main__page-title span {
   color: #b7832f
+}
+
+.hero__section img {
+  width: 100%;
+  height: auto
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem
+}
+
+.col__heading {
+  font-size: 1.5rem;
+  line-height: 2em
+}
+
+.col.col-1 {
+  width: calc(25% - .75rem)
+}
+
+.col.col-2 {
+  flex: calc(50% - 2.25rem)
+}
+
+.col.col-3 {
+  flex: calc(75% - 3.75rem)
+}
+
+.col.col__bg {
+  padding: 1em;
+  background-color: #312614;
+  color: #fff
 }
